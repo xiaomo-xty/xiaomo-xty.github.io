@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://xiaomo-xty.github.io
+url: https://xiaomo-xty.gitee.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -136,13 +136,13 @@ jsonContent:
       categories: false
       tags: true
       
-# Extensions
+
 ## Plugins: http://hexo.io/plugins/
-#RSS订阅
-plugin:
-- hexo-generator-feed
+#Extensions
+plugins:
+    hexo-generator-feed
 #Feed Atom
 feed:
-type: atom
-path: atom.xml
-limit: 20
+    type: atom
+    path: atom.xml
+    limit: 20
