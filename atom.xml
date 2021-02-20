@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>樱园博客</title>
+  
+  <subtitle>--晓墨的个人博客</subtitle>
+  <link href="https://xiaomo-xty.gitee.io/atom.xml" rel="self"/>
+  
+  <link href="https://xiaomo-xty.gitee.io/"/>
+  <updated>2021-02-20T05:47:12.233Z</updated>
+  <id>https://xiaomo-xty.gitee.io/</id>
+  
+  <author>
+    <name>晓墨</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>rsshub官方文档整理</title>
+    <link href="https://xiaomo-xty.gitee.io/2021/02/20/rss%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E6%95%B4%E7%90%86/"/>
+    <id>https://xiaomo-xty.gitee.io/2021/02/20/rss%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E6%95%B4%E7%90%86/</id>
+    <published>2021-02-20T05:09:57.000Z</published>
+    <updated>2021-02-20T05:47:12.233Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=2184561379,1726650014&amp;fm=15&amp;gp=0.jpg&quot; alt=&quot;rss&quot;&gt;&lt;/p&gt;
+&lt;p&gt;这是&lt;a href=&quot;https://docs.rsshub.app/&quot;&gt;官方文档&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="目录" scheme="https://xiaomo-xty.gitee.io/tags/%E7%9B%AE%E5%BD%95/"/>
+    
+    <category term="rss" scheme="https://xiaomo-xty.gitee.io/tags/rss/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo博客的个性化和备份</title>
+    <link href="https://xiaomo-xty.gitee.io/2021/02/19/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%AA%E6%80%A7%E5%8C%96%E5%92%8C%E5%A4%87%E4%BB%BD/"/>
+    <id>https://xiaomo-xty.gitee.io/2021/02/19/hexo%E5%8D%9A%E5%AE%A2%E7%9A%84%E4%B8%AA%E6%80%A7%E5%8C%96%E5%92%8C%E5%A4%87%E4%BB%BD/</id>
+    <published>2021-02-19T12:43:55.000Z</published>
+    <updated>2021-02-20T13:49:00.948Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3010013829,2497003625&amp;fm=26&amp;gp=0.jpg&quot; alt=&quot;img&quot;&gt;&lt;/p&gt;
+&lt;p&gt;部署完博客环境后，初步学会使用，我就想使这个网页更加美丽、强大！并且为了本地源码不丢失，我立马想到了备份。（之前因为电脑崩盘丢失了好多源码文件）&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="note" scheme="https://xiaomo-xty.gitee.io/tags/note/"/>
+    
+    <category term="目录" scheme="https://xiaomo-xty.gitee.io/tags/%E7%9B%AE%E5%BD%95/"/>
+    
+    <category term="hexo" scheme="https://xiaomo-xty.gitee.io/tags/hexo/"/>
+    
+    <category term="blog" scheme="https://xiaomo-xty.gitee.io/tags/blog/"/>
+    
+    <category term="yilia" scheme="https://xiaomo-xty.gitee.io/tags/yilia/"/>
+    
+    <category term="valine" scheme="https://xiaomo-xty.gitee.io/tags/valine/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>markdown语法学习</title>
+    <link href="https://xiaomo-xty.gitee.io/2021/02/19/markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://xiaomo-xty.gitee.io/2021/02/19/markdown%E8%AF%AD%E6%B3%95%E5%AD%A6%E4%B9%A0/</id>
+    <published>2021-02-19T06:21:46.000Z</published>
+    <updated>2021-02-20T02:33:00.600Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=1110695959,2322594919&amp;fm=26&amp;gp=0.jpg&quot; alt=&quot;markdown&quot;&gt;&lt;/p&gt;
+&lt;p&gt;作为未来的一名极客，写博客是日常操作，而markdown作为一种轻量级的笔记语言，当然是我的首选。&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="note" scheme="https://xiaomo-xty.gitee.io/tags/note/"/>
+    
+    <category term="目录" scheme="https://xiaomo-xty.gitee.io/tags/%E7%9B%AE%E5%BD%95/"/>
+    
+    <category term="language" scheme="https://xiaomo-xty.gitee.io/tags/language/"/>
+    
+    <category term="markdown" scheme="https://xiaomo-xty.gitee.io/tags/markdown/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo博客环境搭建---（github托管）</title>
+    <link href="https://xiaomo-xty.gitee.io/2021/02/19/hexo%E5%8D%9A%E5%AE%A2%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%EF%BC%88github%E6%89%98%E7%AE%A1%EF%BC%89/"/>
+    <id>https://xiaomo-xty.gitee.io/2021/02/19/hexo%E5%8D%9A%E5%AE%A2%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA-%EF%BC%88github%E6%89%98%E7%AE%A1%EF%BC%89/</id>
+    <published>2021-02-19T05:25:04.000Z</published>
+    <updated>2021-02-20T02:33:00.598Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2010232996,1620516668&amp;fm=26&amp;gp=0.jpg&quot; alt=&quot;hexo+github&quot;&gt;&lt;/p&gt;
+&lt;p&gt;作为一名未来的极客，博客站点这种东西那必须得自己动手来干！github page + hexo是非常棒的组合，完全免费，可diy程度高，nice！&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4204231927,2946927351&amp;fm=26&amp;gp=0.jpg&quot; alt=&quot;nice&quot;&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="目录hexo" scheme="https://xiaomo-xty.gitee.io/tags/%E7%9B%AE%E5%BD%95hexo/"/>
+    
+    <category term="note" scheme="https://xiaomo-xty.gitee.io/tags/note/"/>
+    
+    <category term="技术" scheme="https://xiaomo-xty.gitee.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>my first post</title>
+    <link href="https://xiaomo-xty.gitee.io/2021/02/19/my-first-post/"/>
+    <id>https://xiaomo-xty.gitee.io/2021/02/19/my-first-post/</id>
+    <published>2021-02-19T03:56:46.000Z</published>
+    <updated>2021-02-20T05:22:20.063Z</updated>
+    
+    
+    <summary type="html">&lt;h1 id=&quot;My-first-post&quot;&gt;&lt;a href=&quot;#My-first-post&quot; class=&quot;headerlink&quot; title=&quot;My first post&quot;&gt;&lt;/a&gt;My first post&lt;/h1&gt;&lt;p&gt;&lt;img src=&quot;https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2628225940,3347879136&amp;fm=26&amp;gp=0.jpg&quot; alt=&quot;ͼƬ&quot;&gt;&lt;/p&gt;
+&lt;p&gt;本博客站点第一篇文章，来谈谈感想与介绍这个博客！&lt;/p&gt;</summary>
+    
+    
+    
+    
+    <category term="note" scheme="https://xiaomo-xty.gitee.io/tags/note/"/>
+    
+    <category term="目录" scheme="https://xiaomo-xty.gitee.io/tags/%E7%9B%AE%E5%BD%95/"/>
+    
+  </entry>
+  
+</feed>
