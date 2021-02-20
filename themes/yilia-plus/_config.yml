@@ -174,7 +174,7 @@ baidu_push: true
 
 # 版权声明
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明
-copyright_type: 2
+copyright_type: 1
 # 版权声明自定义文本(关闭请设置为false)
 copyright_text: 
 

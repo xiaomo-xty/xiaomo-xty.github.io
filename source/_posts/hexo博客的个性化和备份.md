@@ -2,6 +2,7 @@
 title: hexo博客的个性化和备份
 date: 2021-02-19 20:43:55
 tags: [目录,note,hexo,blog,yilia,valine]
+copyright: true
 ---
 
 ![img](https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=3010013829,2497003625&fm=26&gp=0.jpg)
@@ -18,6 +19,7 @@ tags: [目录,note,hexo,blog,yilia,valine]
 想要外貌美，首先是yilia主题的各种设置
 
 [yilia个性化](https://blog.csdn.net/qq_37513473/article/details/88617281)
+[最全修改](https://blog.csdn.net/xdfwsl/article/details/102587821?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control&dist_request_id=bb7488ed-3eeb-4968-b576-669574a55ce5&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-2.control)
 
 
 
@@ -30,6 +32,12 @@ tags: [目录,note,hexo,blog,yilia,valine]
 valine出现在我眼前！好家伙，我直接好家伙！（说不了了，先上链接）
 
 [yilia+valine](https://blog.csdn.net/weixin_41287260/article/details/103049437)
+
+
+
+### rss订阅
+
+[rss订阅](https://blog.csdn.net/mudooo/article/details/94584034)
 
 
 
