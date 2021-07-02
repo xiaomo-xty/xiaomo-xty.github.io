@@ -71,7 +71,4 @@ tags: [目录hexo,note,技术]
 
 ---
 参考视频：
-
-<div style="position: relative;width: 100%;height: 0;padding-bottom: 75%;">  
-  <iframe src="//player.bilibili.com/player.html?aid=44544186&bvid=BV1Yb411a7ty&cid=158772893&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" width: 100% height: 100% left: 0 top: 0> </iframe> 
-</div>
+<iframe src="http://player.bilibili.com/player.html?aid=44544186&bvid=BV1Yb411a7ty&page=1&highquality=1" scrolling="no" width="800px" height="600px" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>

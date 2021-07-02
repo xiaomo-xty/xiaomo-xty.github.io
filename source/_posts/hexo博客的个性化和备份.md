@@ -35,9 +35,35 @@ valine出现在我眼前！好家伙，我直接好家伙！（说不了了，�
 
 
 
-### rss订阅
+### 添加 RSS 订阅支持（可选的）
 
 [rss订阅](https://blog.csdn.net/mudooo/article/details/94584034)
+
+
+
+本主题中还使用到了 [hexo-generator-feed](https://links.jianshu.com/go?to=https%3A%2F%2Fyafine-blog.cn%2Fgo.html%3Furl%3DaHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvLWdlbmVyYXRvci1mZWVk) 的 Hexo 插件来做 `RSS`，安装命令如下：
+
+
+
+```bash
+npm install hexo-generator-feed --save
+```
+
+在 Hexo 根目录下的 `_config.yml` 文件中，新增以下的配置项：
+
+
+
+```yaml
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
+```
 
 
 

@@ -137,12 +137,14 @@ jsonContent:
       tags: true
       
 
-## Plugins: http://hexo.io/plugins/
-#Extensions
-plugins:
-    hexo-generator-feed
+
 #Feed Atom
 feed:
-    type: atom
-    path: atom.xml
-    limit: 20
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content: true  #是否包含文章全部内容
+  content_limit: false
+  content_limit_delim: ' '
+  order_by: -date
