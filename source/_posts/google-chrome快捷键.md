@@ -1,3 +1,13 @@
+---
+title: google chrome快捷键
+tags:
+  - 目录
+  - chrome
+copyright: true
+toc: true
+date: 2021-07-10 11:33:32
+---
+
 ## 方法/步骤
 
 1. 1
@@ -10,7 +20,9 @@
 
    43[如何离线安装Chrome最新版本或某一特定版本？](https://jingyan.baidu.com/article/8ebacdf00a711649f65cd5e5.html)
 
-2. 2
+<!--more-->
+
+1. 2
 
    **标签页和窗口快捷键**
 
@@ -18,9 +30,9 @@
 
    2.  Ctrl + t 打开新的标签页，并跳转到该标签页
 
-   3. Ctrl + Shift + t 重新打开最后关闭的标签页，并跳转到该标签页
+   3.  Ctrl + Shift + t 重新打开最后关闭的标签页，并跳转到该标签页
 
-   4. Ctrl + Tab 跳转到下一个打开的标签页
+   4.  Ctrl + Tab 跳转到下一个打开的标签页
 
    \5. Ctrl + Shift + Tab 跳转到上一个打开的标签页
 
@@ -40,9 +52,9 @@
 
    
 
-   ![Chrome浏览器常用键盘快捷键介绍](./Chrome浏览器常用键盘快捷键介绍-百度经验_files/486884883913e8e569beb908352f477047187de4(1).jpg)
+   ![Chrome浏览器常用键盘快捷键介绍](F:/hexo blog/xiaomo-xty/source/_posts/Chrome浏览器常用键盘快捷键介绍-百度经验_files/486884883913e8e569beb908352f477047187de4(1).jpg)
 
-3. 3
+2. 3
 
    **功能快捷键**
 
@@ -60,9 +72,9 @@
 
    
 
-   ![Chrome浏览器常用键盘快捷键介绍](./Chrome浏览器常用键盘快捷键介绍-百度经验_files/46315818dfdae43bb7d61695c457935652bb74e4(1).jpg)
+   ![Chrome浏览器常用键盘快捷键介绍](F:/hexo blog/xiaomo-xty/source/_posts/Chrome浏览器常用键盘快捷键介绍-百度经验_files/46315818dfdae43bb7d61695c457935652bb74e4(1).jpg)
 
-4. 4
+3. 4
 
    **地址栏快捷键**
 
@@ -72,9 +84,9 @@
 
    \3. Ctrl + l、Alt + d 或 F6 跳转到地址栏
 
-   ![Chrome浏览器常用键盘快捷键介绍](./Chrome浏览器常用键盘快捷键介绍-百度经验_files/92174dbbf82064fb055b25958e6104a354e96fe4(1).jpg)
+   ![Chrome浏览器常用键盘快捷键介绍](F:/hexo blog/xiaomo-xty/source/_posts/Chrome浏览器常用键盘快捷键介绍-百度经验_files/92174dbbf82064fb055b25958e6104a354e96fe4(1).jpg)
 
-5. 5
+4. 5
 
    **网页快捷键**
 
@@ -98,9 +110,9 @@
 
    10. Esc 停止加载网页
 
-   ![Chrome浏览器常用键盘快捷键介绍](./Chrome浏览器常用键盘快捷键介绍-百度经验_files/e2aefe781431dfb6ad3c43d212cf02532e6363e4(1).jpg)
+   ![Chrome浏览器常用键盘快捷键介绍](F:/hexo blog/xiaomo-xty/source/_posts/Chrome浏览器常用键盘快捷键介绍-百度经验_files/e2aefe781431dfb6ad3c43d212cf02532e6363e4(1).jpg)
 
-6. 6
+5. 6
 
    **鼠标快捷键**
 
@@ -112,7 +124,7 @@
 
    4. 按住 Ctrl 键的同时点击链接 在新的后台标签页中打开链接
 
-   ![Chrome浏览器常用键盘快捷键介绍](./Chrome浏览器常用键盘快捷键介绍-百度经验_files/22c4fe36e29147e89bb02dc6b603bbea3f8658e4(1).jpg)
+   ![Chrome浏览器常用键盘快捷键介绍](F:/hexo blog/xiaomo-xty/source/_posts/Chrome浏览器常用键盘快捷键介绍-百度经验_files/22c4fe36e29147e89bb02dc6b603bbea3f8658e4(1).jpg)
 
    END
 
