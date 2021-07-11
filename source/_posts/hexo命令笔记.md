@@ -7,6 +7,8 @@ toc: true
 
 ### hexo常用命令
 
+[toc]
+
 ![hexo_logo](https://gitee.com/xiaomo-xty/pic-go/raw/master/img/hexo_logo.png)
 
 <!--more-->
