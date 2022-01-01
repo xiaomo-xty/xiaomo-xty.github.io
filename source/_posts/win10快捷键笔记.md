@@ -20,6 +20,8 @@ toc: true
 4. <kbd> win</kbd> + <kbd>Alt</kbd> + <kbd>PrtSc</kbd> :截取活动窗口并保存
 5. <kbd>win</kbd> + <kbd>shift</kbd> + <kbd>s</kbd> :在 Win10 中任意窗口按下 "Win+Shift+S" 组合键便可进入截屏模式，按住鼠标左键拖动框选区域即可截屏 
 
+<!--more-->
+
 F6：笔记本光标锁定状态切换
 
  Alt+F4 关闭当前程序

@@ -134,7 +134,7 @@ valine:
  appkey: 'Bse2eaw097Th6vz63MM9wGzI'  #Leancloud应用的appKey
  verify: false #验证码
  notify: true #评论回复提醒
- avatar: retro #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
+ avatar: '' #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
  #头像类型可见： https://valine.js.org/avatar.html
  placeholder: biu biu biu! #评论框占位符
 

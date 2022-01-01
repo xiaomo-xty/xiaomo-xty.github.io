@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 樱园博客
+title: 汤圆的小屋
 subtitle: '--晓墨的个人博客'
 description: '--生活，技术的分享地'
 keywords: blog,programing
-author: 晓墨
+author: 汤圆
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://xiaomo-xty.gitee.io
+url: https://tangyuanya.top
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -45,7 +45,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ''
@@ -56,6 +56,12 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
+  
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: false    # default false
+  custom_css:
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -98,7 +104,8 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yilia-plus
+theme: hexo-theme-sakuraplus #yilia-plus
+
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -116,25 +123,25 @@ backup:
        github: git@github.com:xiaomo-xty/xiaomo-xty.github.io.git,backup
        gitee: git@gitee.com:xiaomo-xty/xiaomo-xty.git,backup
 
-#yilia插件设置
-jsonContent:
-    meta: false
-    pages: false
-    posts:
-      title: true
-      date: true
-      path: true
-      text: false
-      raw: false
-      content: false
-      slug: false
-      updated: false
-      comments: false
-      link: false
-      permalink: false
-      excerpt: false
-      categories: false
-      tags: true
+# #yilia插件设置   会和sakura主题搜索插件冲突，只能有一个
+# jsonContent:
+#     meta: false
+#     pages: false
+#     posts:
+#       title: true
+#       date: true
+#       path: true
+#       text: false
+#       raw: false
+#       content: false
+#       slug: false
+#       updated: false
+#       comments: false
+#       link: false
+#       permalink: false
+#       excerpt: false
+#       categories: false
+#       tags: true
       
 
 
