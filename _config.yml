@@ -104,7 +104,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: hexo-theme-sakuraplus #yilia-plus
+theme: yilia-plus #hexo-theme-sakuraplus 
 
 
 # Deployment
@@ -123,25 +123,25 @@ backup:
        github: git@github.com:xiaomo-xty/xiaomo-xty.github.io.git,backup
        gitee: git@gitee.com:xiaomo-xty/xiaomo-xty.git,backup
 
-# #yilia插件设置   会和sakura主题搜索插件冲突，只能有一个
-# jsonContent:
-#     meta: false
-#     pages: false
-#     posts:
-#       title: true
-#       date: true
-#       path: true
-#       text: false
-#       raw: false
-#       content: false
-#       slug: false
-#       updated: false
-#       comments: false
-#       link: false
-#       permalink: false
-#       excerpt: false
-#       categories: false
-#       tags: true
+#yilia插件设置   会和sakura主题搜索插件冲突，只能有一个
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
       
 
 

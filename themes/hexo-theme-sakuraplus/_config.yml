@@ -22,7 +22,7 @@ icp:
   url: http://www.beian.miit.gov.cn/state/outPortal/loginPortal.action # 备案链接
   text:  # 备案信息
 
-cdn: https://cdn.jsdelivr.net/gh/xiaomo-xty/xiaomo-xty
+cdn: http://fastly.jsdelivr.net/gh/xiaomo-xty/xiaomo-xty
 pjax: 0 # 无刷新类似ajax,加速
 mathjax: 1 # 1开启,公式解析
 
