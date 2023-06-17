@@ -1,10 +1,13 @@
 <div id="vcomment" class="comment"></div> 
 <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+<!-- <script src="//unpkg.com/valine/dist/Valine.min.js"></script> -->
+<script src="/valine/Valine.min.js"></script>
 <script>
    var notify = '<%= theme.valine.notify %>' == true ? true : false;
    var verify = '<%= theme.valine.verify %>' == true ? true : false;
     window.onload = function() {
+
+
         new Valine({
             el: '.comment',
             notify: notify,
@@ -12,13 +15,7 @@
             app_id: "<%= theme.valine.appid %>",
             app_key: "<%= theme.valine.appkey %>",
             placeholder: "<%= theme.valine.placeholder %>",
-            avatar:"<%= theme.valine.avatar %>"
-        });
-
-        new Valine({
-            el:'#vcomment',
-            appId:'<Your_APP_ID>',
-            appKey:'<Your_APP_KEY>',
+            avatar:"<%= theme.valine.avatar %>",
 
             // 设置Bilibili表情包地址
             emojiCDN: '//i0.hdslb.com/bfs/emote/', 

@@ -1,0 +1,17 @@
+<link rel="stylesheet" type="text/css" href="<%- theme.waline_css %>">
+<div id="waline"></div>
+<script src="<%- theme.waline_js %>"></script>
+<script>
+  Waline.init({
+    el: '#waline',
+    serverURL: '<%= theme.waline.serverURL %>',
+    lang: '<%- config.language %>',
+    meta: [<%- theme.waline.meta ? theme.waline.meta : "'nick', 'mail', 'link'" %>],
+    requiredMeta: [<%- theme.waline.requiredMeta ?  '"' + theme.waline.requiredMeta + '"' : "" %>],
+    login: '<%= theme.waline.login%>',
+    wordLimit: <%= theme.waline.wordLimit %>,
+    pageSize: <%= theme.waline.pageSize %>,
+    copyright: '<%- theme.waline.copyright %>' === 'true'
+  });
+  document.getElementById('wl-edit').setAttribute("placeholder","<%= theme.waline.placeholder %>");
+</script>

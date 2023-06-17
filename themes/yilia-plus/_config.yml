@@ -50,7 +50,7 @@ excerpt_link: more
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
 # 数学公式
-mathjax: false
+mathjax: true
 
 # Open link in a new tab | 是否在新窗口打开链接
 open_in_new:
@@ -60,7 +60,7 @@ open_in_new:
 
 # 打赏
 # 打赏type设定：0-关闭打赏； 1-文章对应的md文件里有reward:true属性，才有打赏； 2-所有文章均有打赏
-reward_type: 2
+reward_type: 1
 # 打赏wording
 reward_wording: '谢谢你请我吃糖果'
 # 支付宝二维码图片地址，跟你设置头像的方式一样。比如：/assets/img/alipay.jpg
@@ -82,10 +82,10 @@ top: true
 # Miscellaneous
 baidu_analytics: '226498723a1e7a21ec85346e69cdac94'
 google_analytics: ''
-favicon: /img/sakura.jpg
+favicon: /img/yoimiya.jpg
 
 #你的头像url
-avatar: /img/huaji.jpg
+avatar: /img/yoimiya.jpg
 
 # 是否开启分享
 share_jia: true
@@ -129,14 +129,32 @@ giteement:
     client_secret: ''       #client secret
     
 #valine
-valine: 
- appid: 'a5HK0g32vnSB9VRpapuYQUJq-gzGzoHsz'  #Leancloud应用的appId
- appkey: 'Bse2eaw097Th6vz63MM9wGzI'  #Leancloud应用的appKey
+valine:
+ enable: false
+ appid: 'g2YjY4rD9Y6rgZ57a4QxHTEg-gzGzoHsz'  #Leancloud应用的appId
+ appkey: 'DKw7Ooz8Ax5JVsmO9NNyQqcJ'  #Leancloud应用的appKey
  verify: false #验证码
  notify: true #评论回复提醒
  avatar: '' #评论列表头像样式：''/mm/identicon/monsterid/wavatar/retro/hide
  #头像类型可见： https://valine.js.org/avatar.html
  placeholder: biu biu biu! #评论框占位符
+ avatar_cdn: /valine/Valine.min.js # cdn
+
+#waline评论
+waline:
+  enable: true
+  serverURL: https://waline.littlesun.cloud # 服务端的地址
+  meta: "'nick','mail','link'" # 评论者相关属性。字符串类型，可选值:'nick','mail','link'
+  requiredMeta: "" # # 匿名选项。字符串类型，空为允许匿名。可选值:'nick','mail'
+  login: enable # 登录模式状态，可选值：'enable'，'disable'，'force'
+  wordLimit: 0 # 评论字数限制。填入单个数字时为最大字数限制。设置为0时无限制。
+  pageSize: 10 # 评论列表分页，每页条数。
+  copyright: true # 是否显示页脚版权信息。
+  reaction: true #文章反应 - 评分 （还没搞好）
+  placeholder: '请留言。(填写邮箱可在被回复时收到邮件提醒)' # 评论框占位提示符（js替换实现）
+
+waline_css: https://unpkg.com/@waline/client@v2/dist/waline.css
+waline_js: https://unpkg.com/@waline/client@v2/dist/waline.js
 
 # 访问量统计功能(不蒜子)
 busuanzi:
@@ -188,7 +206,7 @@ since: 2021
 #       loading-bar|mac-osx|minimal
 # color: black|blue|green|orange|pink|purple|red|silver|white|yellow|
 progressBar:
-  enable: false
+  enable: true
   type: 'minimal'  # Keep Quotes | 保留引号避免出错(某些type会导致样式重叠排版错误)
   color: blue
 
@@ -226,11 +244,11 @@ snow: false
 ## https://github.com/JoeyBling/live2d-widget.js
 live2d:
   # (关闭请设置为false)
-  enable: false
+  enable: true
   # 模型名称(取值请参考：https://github.com/JoeyBling/hexo-theme-yilia-plus/wiki/live2d%E6%A8%A1%E5%9E%8B%E5%8C%85%E5%B1%95%E7%A4%BA)
-  model: hibiki
+  model: hijiki
   display:
-    position: right # 显示位置：left/right(default: 'right')
+    position: left # 显示位置：left/right(default: 'right')
     width: 145  # 模型的长度(default: 150)
     height: 315 # 模型的高度(default: 300)
     hOffset: 50 # 水平偏移(default: 0)
@@ -244,13 +262,13 @@ live2d:
 # 样式定制 - 一般不需要修改，除非有很强的定制欲望…
 style:
   # 头像上面的背景颜色
-  # header: '#D3D1DC'
-  header: '#4d4d4d'
+  header: '#fcddc1'
+  # header: '#4d4d4d'
   gif:
     # 是否启用左侧边栏动态图效果
     enable: false
     # 自定义背景图路径(默认可以不设置，提供默认背景图)
-    # path: /img/biubiubiu.gif
+    path: /img/grassslimer.gif
   # 右滑板块背景
   slider: 'linear-gradient(200deg,#a0cfe4,#e8c37e)'
 
@@ -278,4 +296,4 @@ friends:
   友情链接5: http://localhost:4000/
   友情链接6: http://localhost:4000/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 小太阳<br><br>发一点微光<br>让世界多一点温暖
