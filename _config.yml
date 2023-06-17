@@ -150,6 +150,7 @@ deploy:
 #backup备份
 backup:
     type: git
+    theme: yilia-plus
     repository:
        github: git@github.com:xiaomo-xty/xiaomo-xty.github.io.git,backup
        gitee: git@gitee.com:xiaomo-xty/xiaomo-xty.git,backup
