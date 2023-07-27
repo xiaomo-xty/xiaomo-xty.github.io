@@ -236,6 +236,200 @@ var _hmt = _hmt || [];
             
 
   
+    <article id="post-汇编层面的函数调用" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2023/07/27/%E6%B1%87%E7%BC%96%E5%B1%82%E9%9D%A2%E7%9A%84%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8/" target="_blank">汇编层面的函数调用</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2023/07/27/%E6%B1%87%E7%BC%96%E5%B1%82%E9%9D%A2%E7%9A%84%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8/" class="archive-article-date">
+        <time datetime="2023-07-27T12:59:33.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-07-27</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <p> 函数调用是很好理解也很强大的编程技术，我们也是用了不知道多少次。那如果我们想玩点hack一点的东西，比如搞点寄存器快照，调用一个函数就可以将当前函数执行的状态全都保存下来，并且后续让它可以恢复，典型的<code>setjmp</code> 函数，就需要更深入地理解在在汇编语言的视角里，它是如何实现的</p>
+    
+    <a class="article-more-a" href="/2023/07/27/%E6%B1%87%E7%BC%96%E5%B1%82%E9%9D%A2%E7%9A%84%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8/#more">more >></a>
+    
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">目录</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">汇编</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">c语言</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2023/07/27/%E6%B1%87%E7%BC%96%E5%B1%82%E9%9D%A2%E7%9A%84%E5%87%BD%E6%95%B0%E8%B0%83%E7%94%A8/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+
+  
+    <article id="post-DIY-setjmp" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class="article-header">
+  
+  
+    <h1 itemprop="name">
+	
+	  <a class="article-title" href="/2023/07/27/DIY-setjmp/" target="_blank">DIY setjmp</a>
+  
+    </h1>
+  
+
+
+  
+  
+<a href="/2023/07/27/DIY-setjmp/" class="archive-article-date">
+        <time datetime="2023-07-27T12:59:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-07-27</time>
+</a>
+
+  
+  
+    
+
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <p>这个玩意是我在做蒋岩炎老师的操作系统课的M2实验时，实现协程库的过程中所需要的一部分知识。为了更充分地深入地理解，我就参考大佬博客DIY<del>抄袭</del>了一个</p>
+    
+    <a class="article-more-a" href="/2023/07/27/DIY-setjmp/#more">more >></a>
+    
+    
+
+    
+
+    
+
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">目录</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">汇编</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color4">c语言</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2023/07/27/DIY-setjmp/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+
+
+  
     <article id="post-红黑树结点的删除与修复" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
@@ -1015,203 +1209,6 @@ var _hmt = _hmt || [];
 
 
   
-    <article id="post-google-chrome快捷键" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2021/07/10/google-chrome%E5%BF%AB%E6%8D%B7%E9%94%AE/" target="_blank">google chrome快捷键</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2021/07/10/google-chrome%E5%BF%AB%E6%8D%B7%E9%94%AE/" class="archive-article-date">
-        <time datetime="2021-07-10T03:33:32.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-07-10</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h2 id="方法-步骤"><a href="#方法-步骤" class="headerlink" title="方法/步骤"></a>方法/步骤</h2><ol>
-<li><p>1</p>
-<p><strong>升级Chrome到最新版本</strong></p>
-<p>参考下面经验”<strong>如何离线安装Chrome最新版本或某一特定版本？</strong>“，将Chrome升级到最新版本，或恢复到上个可用版本。</p>
-<p>43<a target="_blank" rel="noopener" href="https://jingyan.baidu.com/article/8ebacdf00a711649f65cd5e5.html">如何离线安装Chrome最新版本或某一特定版本？</a></p>
-</li>
-</ol>
-    
-    <a class="article-more-a" href="/2021/07/10/google-chrome%E5%BF%AB%E6%8D%B7%E9%94%AE/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">目录</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color2">chrome</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2021/07/10/google-chrome%E5%BF%AB%E6%8D%B7%E9%94%AE/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-  
-    <article id="post-hexo命令笔记" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-  
-  
-    <h1 itemprop="name">
-	
-	  <a class="article-title" href="/2021/07/10/hexo%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0/" target="_blank">hexo命令笔记</a>
-  
-    </h1>
-  
-
-
-  
-  
-<a href="/2021/07/10/hexo%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0/" class="archive-article-date">
-        <time datetime="2021-07-10T03:11:43.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2021-07-10</time>
-</a>
-
-  
-  
-    
-
-  
-  </header>
-  
-  <div class="article-entry" itemprop="articleBody">
-    
-    <h3 id="hexo常用命令"><a href="#hexo常用命令" class="headerlink" title="hexo常用命令"></a>hexo常用命令</h3><p>[toc]</p>
-<p><img src="https://gitee.com/xiaomo-xty/pic-go/raw/master/img/hexo_logo.png" alt="hexo_logo"></p>
-    
-    <a class="article-more-a" href="/2021/07/10/hexo%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0/#more">more >></a>
-    
-    
-
-    
-
-    
-
-  </div>
-  <div class="article-info article-info-index">
-    
-    
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">目录</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">note</a>
-        		</li>
-      		 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-    
-
-    
-    <p class="article-more-link">
-      <a class="article-more-a" href="/2021/07/10/hexo%E5%91%BD%E4%BB%A4%E7%AC%94%E8%AE%B0/">展开全文 >></a>
-    </p>
-    
-
-    
-    <div class="clearfix"></div>
-  </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-
-  
   
     <nav id="page-nav">
       <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/">Next &amp;raquo;</a>
@@ -1459,6 +1456,10 @@ var _hmt = _hmt || [];
              
               <li class="article-tag-list-item">
                 <a href="javascript:void(0)" class="js-tag color1">easyx</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color4">c语言</a>
               </li>
             
             <div class="clearfix"></div>
